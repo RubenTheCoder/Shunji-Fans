@@ -1,0 +1,28 @@
+Shop item format
+<div>
+  <img src="" alt="" />
+  <div>
+    <h4>Example product</h4>
+    <p>On sale!</p>
+    <p>$24.99</p>
+    <form action="pages/product_info.html" method="get">
+      <input type="hidden" value="Example product">
+      <input type="submit" value="Check product">
+    </form>
+  </div>
+</div>
+
+
+Cart item format
+<div>
+  <img src="" alt="" />
+  <div>
+    <h4>Example product</h4>
+    <p>$24.99</p>
+    <form action="pages/product_info.html" method="get">
+      input type="hidden" value="Example product">
+      <input type="submit" value="Check product">
+    </form>
+    <button class="material-symbols-outlined">remove_shopping_cart</button>
+  </div>
+</div>

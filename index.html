@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>Home | Shunji Fans</title>
+
+  <meta name="description" content="" />
+  <meta name="keywords" content="" />
+  <meta name="author" content="RubenTheCoder" />
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#2b5797">
+  <meta name="theme-color" content="#ffffff">
+
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" type="text/css" href="/styles/normalize.css" />
+  <link rel="stylesheet" type="text/css" href="/styles/main.css" />
+  <link rel="stylesheet" type="text/css" href="/styles/colors.css" />
+
+  <link rel="stylesheet" type="text/css" href="/styles/size_xs.css" />
+  <link rel="stylesheet" type="text/css" href="/styles/size_s.css" media="(min-width: 601px)" />
+  <link rel="stylesheet" type="text/css" href="/styles/size_m.css" media="(min-width: 768px)" />
+  <link rel="stylesheet" type="text/css" href="/styles/size_l.css" media="(min-width: 992px)" />
+  <link rel="stylesheet" type="text/css" href="/styles/size_xl.css" media="(min-width: 1200px)" />
+</head>
+
+<body class="light" onload="generatePageProducts('main');openCookieBanner();updateTotalDisplay();setColorTheme('set')">
+  <div id="cookieBanner" class="light">
+    <h2 class="light">Cookie Consent Message:</h2>
+    <p class="light">
+      We use cookies to provide you with the best possible
+      experience on our website. By continuing to use this site,"
+      you consent to the use of essential cookies that are
+      necessary for the proper functioning of our website.
+
+      Our website uses cookies to:
+
+      Remember what items you added to your shopping cart.
+      Remember how many stars you have given to a item.
+      Remember color theme settings.
+
+      For more information on how we handle your personal data, please refer to our Privacy Policy.
+
+      By continuing to use our website, you agree to our use of essential cookies as described in this Cookie Consent
+      Message.
+
+      Thank you for your understanding and support.
+    </p>
+    <button class="light" onclick="closeCookieBanner()">Close message</button>
+  </div>
+
+  <div id="toastFrame" class="inside">Toasts</div>
+
+  <header class="light clearfix">
+    <div class="light">
+      <a id="logoAnchor" href="/index.html">
+        <img srcset="
+    /images/logo_small.png 60w,
+    /images/logo_medium.png 120w,
+    /images/logo_large.png 240w
+    " sizes="
+    (max-width: 767px) 60px,
+    (max-width: 1999px) 120px,
+    240px
+    " alt="Logo" />
+      </a>
+      <h1 class="light">Shunji Fans</h1>
+      <a id="cartAnchor" href="/pages/cart.html">
+        <p class="material-symbols-outlined light">
+          shopping_cart
+        </p>
+        <small id="cartIconTotal" class="light">
+          0
+        </small>
+      </a>
+    </div>
+    <button class="material-symbols-outlined themeButton light" onclick="setColorTheme('toggle')">dark_mode</button>
+    <nav>
+      <a class="light" href="/index.html">Home</a>
+      <span class="light"> | </span>
+      <a class="light" href="/pages/shop.html">Shop</a>
+      <span class="light"> | </span>
+      <a class="light" href="/pages/contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main class="light">
+    <div id="welcomeBanner">
+      <div id="specialGradient_1" class="light"></div>
+      <div id="specialGradient_2" class="light"></div>
+      <h2 id="specialGradientText" class="light">Welcome to our webshop</h2>
+    </div>
+
+    <section>
+      <h3 class="light">Promotions</h3>
+      <div id="promotionFolder" class="mainFolder">
+
+      </div>
+    </section>
+    <section>
+      <h3 class="light">New in our shop</h3>
+      <div id="newItemFolder" class="mainFolder">
+
+      </div>
+    </section>
+    <article>
+      <h3 class="light">About us</h3>
+      <p class="light">
+        I was born at a very young age
+      </p>
+    </article>
+    <br>
+  </main>
+  <footer class="light">
+    <address class="light">
+      Address: Nichibotsu 2205
+      <br>
+      City: Yurikawa, Globalpolis
+      <br>
+      Country: Emeraldia, Kikoria
+      <br>
+      Phone: +751 14042070
+      <br>
+      E-mail: <a class="light" href="mailto:shunjifans@gmail.com">shunjifans@gmail.com</a>
+    </address>
+    <h3 class="light">Copyright info</h3>
+
+    <h3 class="light">Contributions</h3>
+    <a class="light" href="https://www.flaticon.com/free-icons/train" title="train icons">
+      Train icons created by Freepik - Flaticon</a>
+  </footer>
+
+  <script type="application/json" charset="utf-8" src="/js/products.json"></script>
+  <script type="text/javascript" charset="utf-8" src="/js/code.js"></script>
+</body>
+
+</html>

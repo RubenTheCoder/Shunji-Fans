@@ -1,0 +1,193 @@
+
+Todo for Webshop
+
+> Go further with the dark mode toggler
+
+
+
+Index.html - x
+
+Head                   - x
+  Links                - x
+  Meta                 - x
+  Favicon              - x
+Header                 - x
+  Logo                 - x
+  Title                - x
+  Shopping Cart button - x
+  Adframe              - x
+  Nav                  - x
+Main                   - x
+  Welcome              - x
+  Promotions           - x
+    Promotion item     - x
+  Adframe              - x
+  New                  - x
+    New item           - x
+  Adframe              - x
+  About us             - x
+Footer                 - x
+  Contact              - x
+  Copyrights           - x
+  Contributions        - x
+
+
+Shop.html - x
+
+Head                   - x
+  Links                - x
+  Meta                 - x
+  Favicon              - x
+Header                 - x
+  Logo                 - x
+  Title                - x
+  Shopping Cart button - x
+  Adframe              - x
+  Nav                  - x
+Main                   - x
+  Product list         - x
+    Product item       - x
+Footer                 - x
+  Contact              - x
+  Copyrights           - x
+  Contributions        - x
+
+
+ProductInfo.html - x
+
+Head                   - x
+  Links                - x
+  Meta                 - x
+  Favicon              - x
+Header                 - x
+  Logo                 - x
+  Title                - x
+  Shopping Cart button - x
+  Adframe              - x
+  Nav                  - x
+Main                   - x
+  Product info         - x
+Footer                 - x
+  Contact              - x
+  Copyright            - x
+  Contributions        - x
+
+
+ShoppingCart.html - x
+
+Head                   - x
+  Links                - x
+  Meta                 - x
+  Favicon              - x
+Header                 - x
+  Logo                 - x
+  Title                - x
+  Shopping Cart button - x
+  Adframe              - x
+  Nav                  - x
+Main                   - x
+  Product list         - x
+  Buy button           - x
+Footer                 - x
+  Contact              - x
+  Copyright            - x
+  Contributions        - x
+
+
+Contact.html - x
+
+Head                   - x
+  Links                - x
+  Meta                 - x
+  Favicon              - x
+Header                 - x
+  Logo                 - x
+  Title                - x
+  Shopping Cart button - x
+  Adframe              - x
+  Nav                  - x
+Main                   - x
+  Contact info         - x
+  Contact form         - x
+Footer                 - x
+  Contact              - x
+  Copyright            - x
+
+
+ProductList.js - x
+
+List of objects - x
+
+
+Code.js -
+
+Toggle dark mode               - x
+Generate promotion items       - x
+Generate 'new' items           - x
+Slice URL form to product page - x
+Create shop items              - x
+Create product info page       - x
+Star rating                    - x
+Add to cart                    - x
+Remove from cart               - x
+Generate cart content          - x
+Send contact form?             -
+Cookie popup                   - x
+Cookies for cart               - x
+Cookies for theme              - x
+Cookies for cookie banner      - x
+
+Normalize.css -
+
+Reset pesky css normals  -
+
+
+Size_1-5.css -
+
+Make headers responsive -
+Make main responsive    -
+Make footers responsive -
+Make others responsive  -
+
+
+Main.css -
+
+Main style data      -
+Header style         -
+Main style           -
+Footer style         -
+Page specific styles -
+
+
+Colors.css -
+
+Light mode colors -
+Dark mode colors  -
+
+
+Accessibility -
+
+Correct translations -
+(Un)selectable items -
+
+
+Security - 
+
+No inline items      - 
+Other security stuff - 
+
+
+Final polishments -
+
+Make code look clear                                    - 
+Better variable names                                   -
+Organize order                                          -
+Make nearly every variable declared at the top for ease -
+Other things                                            - 
+
+
+Tests - 
+
+Polishment test sweep 1 - 
+Polishment test sweep 2 - 
+Polishment test sweep 3 - 
