@@ -1,7 +1,5 @@
 # README
 
----
-
 Dit was een poging om een webshop voor een zelfbedachte speelgoedwinkel te maken in het thema van treinen. Je kon er spullen in je winkelwagen doen, en items beoordelen
 
 ---
