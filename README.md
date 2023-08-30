@@ -1,21 +1,16 @@
-# Shunji-Webshop
+# README
 
-(CSS)
+---
 
-Device Breakpoints are:
-Tiny:   < 600px
-Small:  601px - 767px
-Medium: 768px - 991px
-Large:  992px - 1999px
-Huge:   > 1200px
+Dit was een poging om een webshop voor een zelfbedachte speelgoedwinkel te maken in het thema van treinen. Je kon er spullen in je winkelwagen doen, en items beoordelen
 
+---
 
+## Screenshots
+![Screenshot](https://github.com/RubenTheCoder/Shunji-Railways-attempt-1/assets/130549492/65d8200b-9224-47fc-bc5c-8adae9428d6a)
 
-Adding light and dark modes is done by adding a extra CSS argument like so:
+Dit is hoe de website eruit ziet
 
-  header {color:black;}
+---
 
-  header.light {color:black;}
-  header.dark {color:white;}
-
-Be sure to add a class named "light" so the code will recognize it as color changable
+Gemaakt door RubenTheCoder
